@@ -1,0 +1,23 @@
+pipeline{
+stage1(Build){
+
+echo 'buildin application'
+}
+stage2(Deploy)
+{
+echo 'deployment'
+}
+stage3(test)
+{
+echo 'testing'
+}
+stage4(Release)
+
+{
+echo 'release to production'
+}
+
+
+
+
+}
