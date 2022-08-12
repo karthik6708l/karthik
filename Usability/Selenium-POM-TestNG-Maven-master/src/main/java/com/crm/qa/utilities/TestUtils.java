@@ -20,7 +20,7 @@ public class TestUtils {
 
 	public static final long IMPLICIT_WAIT = 10;
 
-	public static final String WORKSAPCE_PATH = "D:\\Selenium-POM-TestNG-Maven-master\\Selenium-POM-TestNG-Maven-master"; // provide path of workspace from your local machine
+	public static final String WORKSAPCE_PATH = System.getProperty("user.dir"); // provide path of workspace from your local machine
 
 	public static final String SCREENSHOT_PATH = WORKSAPCE_PATH + "//Screenshot//";
 
